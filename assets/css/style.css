@@ -1,0 +1,87 @@
+
+.fondo{
+background-color: rgba(203, 171, 116, 0.6);
+border: 1px solid #851b44;
+}
+#banner{
+  height: 25vh;
+  background-color: #851b44;
+}
+nav{
+  height: 8vh;
+}
+nav ul{
+  list-style: none;
+  margin: 0;
+  display: flex;
+  flex-direction: row-reverse;
+}
+nav ul li{
+display: inline;
+margin-right: 35px;
+}
+nav ul li a{
+  text-decoration: none;
+  color: #841b44;
+  background-color: #ddab45;
+  padding: 0.5em;
+  display: block;
+  width: 120px;
+  text-align: center;
+}
+/* ===== Seccion contenedor de video ======*/
+#video{
+  /*margin-bottom: 80px;
+  height: 80vh;*/
+  background-image: url("../img/AANY-artesanias-en-yucatan.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+espacio_logo{
+  width: 30%;
+  height: 80%;
+  border: 1px solid black;
+}
+#logo{
+  width: 28%;
+}
+
+/*=====  Sección Nosotros ==== */
+#nosotros{
+  height:450px;
+  border-bottom: solid 6px #ddab45;
+  display: flex;
+}
+.piezas{
+  width: 50vw;
+  background-position: top-center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+#pieza1{
+  background-image: url(../img/pieza-artesanal-aany.jpg);
+  border-right: solid 6px #ddab45;
+}
+#pieza2{
+    background-image: url(../img/artesanias-yucatan-aany.jpg);
+}
+/*=== Líneas ===*/
+#linea_1{
+margin-left: 30%;
+}
+#linea_2{
+  position: absolute;
+  z-index:-1;
+  margin-top: 8px;
+}
+#linea_3{
+  margin: 10px 15% 0 15%;
+}
+.linea_mostaza{
+  height: 6px;
+  background-color: #ddab45;
+}
+.linea_fushia{
+  height: 6px;
+  background-color:#ba0f55;
+}

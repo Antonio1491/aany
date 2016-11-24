@@ -1,0 +1,149 @@
+
+.fondo{
+  margin: 50px;
+  padding: 30px;
+  background-color:rgba(245, 207, 135, 0.6) ;
+  border: 1px solid #851b44;
+}
+.fondo2{
+  margin: 120px;
+  padding: 60px;
+  background-color:rgba(245, 207, 135, 0.6) ;
+  border: 1px solid #851b44;
+}
+.fondo p, .fondo2 p{
+  text-align: justify;
+  color: rgb(26, 27, 27);
+}
+#banner{
+  height: 150px;
+  background-color:#ba0f55; 
+}
+#banner img{
+  max-height: 100%;
+}
+nav{
+  height: 8vh;
+}
+nav ul{
+  list-style: none;
+  margin: 0;
+  display: flex;
+  flex-direction: row-reverse;
+}
+nav ul li{
+display: inline;
+margin-right: 35px;
+}
+nav ul li a{
+  text-decoration: none;
+  color: #841b44;
+  background-color: #ddab45;
+  padding: 0.5em;
+  display: block;
+  width: 120px;
+  text-align: center;
+  font-weight: bold;
+}
+nav ul li a:hover{
+  text-decoration: none;
+  color: #ddab45;
+  background-color: #ba0f55;
+  text-shadow: rgb(52, 51, 52) 1px 1px 1px;
+}
+/* ===== Seccion contenedor de video ======*/
+#video{
+  background-image: url("../img/AANY-artesanias-en-yucatan.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 600px;
+}
+#logo_video{
+  margin-top: 35%;
+}
+/*=====  Sección Nosotros ==== */
+#nosotros{
+}
+.piezas{
+  border-bottom: solid 6px #ddab45;
+    height:450px;
+}
+#pieza1{
+  border-right: solid 6px #ddab45;
+  background-image: url(../img/pieza1.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 450px;
+}
+#pieza2{
+    background-image: url(../img/pieza2.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 450px;
+}
+/*=== Líneas ===*/
+#linea_1{
+margin-left: 30%;
+}
+#linea_4{
+width: 50%;
+float:left;
+}
+#linea_5{
+  width: 70%;
+  margin-top: 10px;
+  float: right;
+}
+#linea_6{
+  margin: 30px 20% 30px 20%;
+}
+#linea_8{
+  margin-left: 30%;
+}
+.linea_mostaza{
+  height: 6px;
+  background-color: #ddab45;
+}
+.linea_fushia{
+  height: 6px;
+  background-color:#ba0f55;
+}
+/*==== eventos ===*/
+#eventos{
+  background-image: url(../img/evento.jpg);
+  background-position: top right;
+  background-repeat: no-repeat;
+  height: 600px;
+}
+/*====  footer ====*/
+footer{
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+#redes_sociales{
+ border-top: solid 6px #ddab45;
+ display: inline-block;
+ text-align: center;
+ padding-top: 10px;
+}
+#contacto{
+  margin-top: 10px;
+  border-top: solid 6px #ba0f55;
+  display: inline-block;
+  text-align: center;
+  padding-top: 10px;
+}
+#idioma{
+  margin-top: 30px;
+  display: inline-block;
+  text-align: center;
+}
+#redes_sociales span, #contacto span{
+  font-size: 16px;
+  font-weight: bold;
+}
+.anuncio{
+  font-size: 25px;
+  text-align: center;
+  color: rgb(26, 27, 27);
+}
