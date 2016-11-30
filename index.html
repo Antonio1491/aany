@@ -5,6 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Arte A Mano | AANY</title>
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script type="text/javascript" src="js/traduccion.js"></script>
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="icon" type="image/png" href="img/favicon.png">
@@ -14,9 +18,9 @@
   <div id="linea_1" class="linea_mostaza"></div>
   <nav>
     <ul>
-      <li><a href="#video">INICIO</a></li>
-      <li><a href="#nosotros">NOSOTROS</a></li>
-      <li><a href="#eventos">EVENTOS</a></li>
+      <li><a href="#video" id="txt1">INICIO</a></li>
+      <li><a href="#nosotros" id="txt2">NOSOTROS</a></li>
+      <li><a href="#eventos" id="txt3">EVENTOS</a></li>
     </ul>
   </nav>
   <section id="video">
@@ -39,23 +43,14 @@
   <section id="nosotros">
     <div id="pieza1" class="col-md-6 piezas">
       <div class="fondo">
-        <p class="lead">AANY es una organización sin fin de lucro, con una base
-        de voluntarios, que patrocinan, exhibiciones, entretenimiento y
-        desarrollo de negocios y habilidades para artesanos.</p>
-        <p class="lead">AANY identifica y promueve arte tradicional y artesanos artistas
-        que producen trabajos originales y de calidad en un esfuerzo de validar
-      su arte, y darles reconocimiento y seguridad económica.</p>
+        <p class="mediano" id="txt4">AANY es una familia que se formó hace ocho años con el afán de identificar a grandes artistas/artesanos y apoyarlos creando un espacio ideal para la venta y desarrollo de su arte.</p>
+        <p class="mediano" id="txt5">Nuestra misión es impulsar el crecimiento de las artes y artesanías finas de la Península de Yucatán captando el talento excepcional que aquí se gesta ofreciendo una plataforma de crecimiento profesional, económico y personal a los artistas seleccionados que forman parte de nuestra familia.</p>
       </div>
     </div>
     <div id="pieza2" class="col-md-6 piezas">
       <div class="fondo">
-        <p class="lead">
-          AANY surgió en el año 2008 por la iniciativa de Joan Farrell, quien
-          a lo largo de su vida se ha dado a la tarea de buscar piezas que
-          destaquen por la exquisitez de su ejecución. Estando en EUA tenía a su
-          cargo una galería de "hadcraft" (Artesanías). A su llegada a la península de
-          Yucatán, su deseo por continuar esta búsqueda la llevó a fundar AANY</p>
-        </p>
+        <p class="mediano" id="txt6">
+          AANY surgió en el año 2008 por la iniciativa de Joan Farrell, mujer norteamericana quien a lo largo de su vida se ha dado a la tarea de buscar piezas que destaquen por la exquisitez de su ejecución. Cuando vivía en EUA tenía a su cargo una galería de “handcrafts” (artesanías). Cuando llegó a la Península de Yucatán, su deseo por continuar esta búsqueda de talento la llevó a fundar AANY.</p>
       </div>
     </div>
   </section>
@@ -63,13 +58,10 @@
 <hr id="linea_6" class="linea_fushia">
 <div id="eventos" class="row">
   <div class="fondo2">
-    <p class="lead"><span>ARTE A MANO</span> es la plataforma de venta y promoción anual para
-      los artistas pertenecientes a nuestra asociación. Este evento se transforma
-      en un espacio cultural idílico, para la venta de arte, arte-sanías, convivencia entre
-      artistas de toda la panínsula y exposición del gran talento que existe en nuestro país.
-    </p>
-    <p class="anuncio">Este año nuestro evento tendrá lugar el 2, 3 y 4 de Diciembre en las instalaciones
-    de la CANACO con la participación de más de 80 artistas expositores.</p>
+    <p class="mediano" id="txt7"><span>"ARTE A MANO"</span> se ha convertido en un evento cultural importante en Mérida para los residentes y visitantes. Para los expositores, ha sido un cambio de vida. En muchos casos las ventas realizadas en la exposición representan una gran parte de los ingresos anuales de nuestros artistas.</p>
+    <p class="mediano" id="txt8">Los voluntarios que conforman AANY ayudan a los expositores en diversas áreas, desde la promoción y presentación de los productos artesanales, elemento que ha hecho una gran diferencia en las ventas. Se anima a los artistas a producir un trabajo nuevo, diferente y comercializar de manera más eficaz. Además, es un espacio en el que al artista se le puede solicitar trabajos sobre encargo. Al finalizar el evento mucha gente visita a los artistas en sus estudios y muchos propietarios de galerías y tiendas  realizan pedidos al mayoreo.</p>
+    <p class="mediano" id="txt9">“Arte a Mano” es la plataforma de venta y promoción anual para los artistas pertenecientes a nuestra asociación. Este evento se transforma en un espacio cultural idílico para la venta de arte, artesanías, convivencia entre artistas de toda la península y exposición del gran talento que existe en nuestro país.</p>
+    <p class="anuncio text-center" id="txt-1">Este año nuestro evento tendrá lugar el 2, 3 y 4 de Diciembre en las instalaciones de la CANACO con la participación de más de 80 artistas expositores.</p>
   </div>
 </div>
 <hr id="linea_7" class="linea_mostaza">
@@ -81,8 +73,8 @@
       Síguenos en <span>Facebook</span>
     </div>
     <div class="col-md-4" id="idioma">
-      <img src="img/ingles.png" alt="">
-      <img src=" img/espanol.png" alt="">
+      <img src="img/ingles.png" alt="" id="ingles">
+      <!--<img src=" img/espanol.png" alt="">-->
     </div>
     <div class="col-md-4" id="contacto">
       <a href="mailto:info@aany.org.mx"><img src="img/email.png" alt=""></a>
@@ -90,10 +82,5 @@
     </div>
   </div>
 </footer>
-
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="js/bootstrap.min.js"></script>
 </body>
 </html>

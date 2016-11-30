@@ -1,23 +1,29 @@
 
 .fondo{
-  margin: 50px;
-  padding: 30px;
+  margin: 10%;
+  padding: 15px;
   background-color:rgba(245, 207, 135, 0.6) ;
   border: 1px solid #851b44;
 }
 .fondo2{
-  margin: 120px;
-  padding: 60px;
-  background-color:rgba(245, 207, 135, 0.6) ;
+  margin: 5%;
+  padding: 30px;
+  background-color:rgba(245, 207, 135, 0.8) ;
   border: 1px solid #851b44;
 }
-.fondo p, .fondo2 p{
+.mediano{
+  font-size: 1.2em;
+}
+.text-justify{
+  text-align: justify;
+}
+.fondo , .fondo2 {
   text-align: justify;
   color: rgb(26, 27, 27);
 }
 #banner{
   height: 150px;
-  background-color:#ba0f55; 
+  background-color:#ba0f55;
 }
 #banner img{
   max-height: 100%;
@@ -115,6 +121,9 @@ float:left;
   background-repeat: no-repeat;
   height: 600px;
 }
+.anuncio{
+
+}
 /*====  footer ====*/
 footer{
   padding-bottom: 20px;
@@ -137,6 +146,7 @@ footer{
   margin-top: 30px;
   display: inline-block;
   text-align: center;
+  cursor: pointer;
 }
 #redes_sociales span, #contacto span{
   font-size: 16px;
